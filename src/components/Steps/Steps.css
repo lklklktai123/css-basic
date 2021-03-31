@@ -1,0 +1,12 @@
+.section-steps {
+  background-color: #f4f4f4;
+}
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}

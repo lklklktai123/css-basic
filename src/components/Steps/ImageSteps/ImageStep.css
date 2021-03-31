@@ -1,0 +1,13 @@
+.app-screen {
+  width: 40%;
+}
+@media only screen and (max-width: 1023px) {
+  .app-screen {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .app-screen {
+    width: 40%;
+  }
+}

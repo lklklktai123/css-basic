@@ -1,0 +1,26 @@
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+blockquote:before {
+  content: '\201C';
+  font-size: 400%;
+  display: block;
+  top: -5px;
+  position: absolute;
+  left: -5px;
+}
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+cite img {
+  height: 50px;
+  border-radius: 100px;
+  margin-right: 10px;
+  vertical-align: middle;
+}

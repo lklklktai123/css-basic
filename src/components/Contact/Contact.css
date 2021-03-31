@@ -1,0 +1,20 @@
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1023px) {
+  .contact-form {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* form .col.span-2-of-3:last-of-type {
+    text-align: center;
+  } */
+}
+/**Danh cho phone from 0 den 480px*/
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 100%;
+  }
+}

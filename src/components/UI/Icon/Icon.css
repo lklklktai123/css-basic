@@ -1,0 +1,14 @@
+.icon-small {
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 120%;
+  width: 30px;
+  text-align: center;
+}
+@media only screen and (max-width: 1023px) {
+  .icon-small {
+    font-size: 100%;
+    width: 17px;
+    margin-right: 5px;
+  }
+}

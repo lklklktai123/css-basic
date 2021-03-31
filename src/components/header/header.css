@@ -1,0 +1,44 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/img/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-top: 20px;
+}
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/**Danh cho   talblet big from 1023 den 1200px row 1140px lon hon row tu canh auto 2 le*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+/**Danh cho  talblet big from 768 den 1023px*/
+@media only screen and (max-width: 1023px) {
+}
+
+/**Danh cho phone hoac talblet from 481 den 767px*/
+@media only screen and (max-width: 767px) {
+  .hero-text-box {
+    padding: 30px 2%;
+  }
+  .row {
+    padding: 10px 2%;
+  }
+}
+/**Danh cho phone from 0 den 480px*/
+@media only screen and (max-width: 480px) {
+}

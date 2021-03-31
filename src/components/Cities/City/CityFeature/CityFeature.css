@@ -1,0 +1,22 @@
+.city-features {
+  margin-bottom: 5px;
+  /* display: inline-block; */
+}
+.city-features a:visited,
+.city-features a:link {
+  text-decoration: none;
+  border-bottom: 1px solid #e67e22;
+  padding-bottom: 1px;
+  color: #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+.city-features a:hover,
+.city-features a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+@media only screen and (max-width: 1023px) {
+  .city-features {
+    font-size: 90%;
+  }
+}
